@@ -6,7 +6,7 @@ permalink: /website-privacy-policy/
 # Website Privacy Policy — Get Your Cert
 
 **This policy has moved onto the website itself:
-[get-your-cert.web.app/privacy](https://get-your-cert.web.app/privacy).**
+[getyourcert.org/privacy](https://getyourcert.org/privacy).**
 
 It is kept with the site it describes, so the two can never drift apart. This page stays here so
 older links do not break.
