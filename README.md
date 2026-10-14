@@ -1,6 +1,8 @@
 # cloudharsha.github.io
 
-GitHub Pages user site. Hosts the public policy pages that app stores require.
+GitHub Pages user site. Hosts the public policy pages that app stores require, and a home page
+(`index.md`) that links to the Get Your Cert website (getyourcert.org), its study guides,
+provider hubs and popular cert pages, so the site has a link from elsewhere on the web.
 
 - `privacy-policy.md` → <https://cloudharsha.github.io/privacy-policy/> — the privacy policy for the
   **Get Your Cert** Android app (`com.harshareddy.getyourcert`). This URL is referenced from the
