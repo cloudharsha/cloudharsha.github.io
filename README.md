@@ -8,7 +8,14 @@ provider hubs and popular cert pages, so the site has a link from elsewhere on t
   <https://cloudharsha.github.io/study-guides/>: directories of every live cert page and study
   guide on getyourcert.org, so Google can reach pages it hasn't crawled yet. They are generated
   from the `get-your-cert` build output and the live sitemap (every link is checked against it),
-  so regenerate them after new certs or guides are deployed rather than editing by hand.
+  so regenerate them after new certs or guides are deployed rather than editing by hand:
+
+  ```
+  curl -s https://getyourcert.org/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' > /tmp/urls.txt
+  node scripts/gen-pages.mjs ../get-your-cert /tmp/urls.txt .
+  ```
+
+  Run it after a webapp build in `../get-your-cert` (it reads `webapp/public/`).
 - `privacy-policy.md` → <https://cloudharsha.github.io/privacy-policy/> — the privacy policy for the
   **Get Your Cert** Android app (`com.harshareddy.getyourcert`). This URL is referenced from the
   Google Play listing and must stay live for as long as the app is published. Website changes never

@@ -4,3 +4,7 @@ description: >-
 theme: minima
 
 markdown: kramdown
+
+exclude:
+  - scripts/
+  - README.md
