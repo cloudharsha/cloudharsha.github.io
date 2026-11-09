@@ -13,6 +13,10 @@ Free practice questions for cloud, AI and MLOps certification exams, every answe
 **Website:** [getyourcert.org](https://getyourcert.org/), with practice tests, full-length mock
 exams and study guides. No sign-up needed.
 
+- **[Practice questions for every certification](/certifications/)**: all 40+ exams and topics
+  by provider, with question counts, mock exams and related guides
+- **[All study guides](/study-guides/)**: every guide with a one-line summary
+
 - [Study guides](https://getyourcert.org/guides): long-form articles on topics the exams test
   heavily, such as [VPC endpoints vs NAT gateways](https://getyourcert.org/guides/aws-vpc-endpoints-vs-nat-gateway)
   and [RAG vs fine-tuning](https://getyourcert.org/guides/rag-vs-fine-tuning)

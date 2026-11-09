@@ -4,6 +4,11 @@ GitHub Pages user site. Hosts the public policy pages that app stores require, a
 (`index.md`) that links to the Get Your Cert website (getyourcert.org), its study guides,
 provider hubs and popular cert pages, so the site has a link from elsewhere on the web.
 
+- `certifications.md` → <https://cloudharsha.github.io/certifications/> and `study-guides.md` →
+  <https://cloudharsha.github.io/study-guides/>: directories of every live cert page and study
+  guide on getyourcert.org, so Google can reach pages it hasn't crawled yet. They are generated
+  from the `get-your-cert` build output and the live sitemap (every link is checked against it),
+  so regenerate them after new certs or guides are deployed rather than editing by hand.
 - `privacy-policy.md` → <https://cloudharsha.github.io/privacy-policy/> — the privacy policy for the
   **Get Your Cert** Android app (`com.harshareddy.getyourcert`). This URL is referenced from the
   Google Play listing and must stay live for as long as the app is published. Website changes never
